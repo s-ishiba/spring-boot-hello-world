@@ -8,7 +8,6 @@ public class HelloWorldContorller {
 	
 	@RequestMapping("/hello")
 	public String hello() {
-// hogehoge
 		return Utils.hello();
 	}
 }
