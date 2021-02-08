@@ -13,7 +13,7 @@ public class HelloWorldApplicationTests {
 
 	@Test
 	public void helloWorldTest() {
-		assertEquals(Utils.hello(), "<h1 id='hello'>Hello World!!</h1>");
+		assertEquals(Utils.hello(), "<h1 id='hello'>hello world</h1>");
 	}
 
 }
